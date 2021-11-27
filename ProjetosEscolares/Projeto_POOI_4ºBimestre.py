@@ -1,3 +1,8 @@
+'''
+    Projeto do 4° Bimestre do segundo ano do Técnico em Informática.
+    Programa cria arquivo excel, através das biblioecas pandas e openpyxl, com dados presentes em banco de dado MySQL. Alguns dos dados são manipulados através dos dataframes.
+'''
+
 import mysql.connector
 import pandas as pd
 
