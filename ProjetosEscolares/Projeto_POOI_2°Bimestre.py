@@ -1,3 +1,8 @@
+'''
+    Projeto do 2° Bimestre do segundo ano do Técnico em Informática.
+    Programa que permite a digitação de vários CPF's para o usuário e verifica se são válidos ou não. Ao final da execução, mostra estatísticas dos CPF's digitados. 
+'''
+
 numVal = 0
 numInval = 0
 CPF_Testagem = 0
