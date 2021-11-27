@@ -1,3 +1,13 @@
+'''
+    Projeto do 1° Bimestre do segundo ano do Técnico em Informática.
+    Programa que, através das escolhas de refeição do usuário, calcula a quantidade de calorias consumidas por ele, o prato consumido com maior quantidade de calorias,
+    a porcentagem que equivale as calorias do prato principal em relação à quantidade de calorias consumidas na refeição e se op total de calorias consumidas estão na
+    quantidade ideal para um dia.
+    Obs: As calorias dos pratos são estabelecidas pelo programador;
+         A quantidade de calorias ideal para ser consumidas em 1 dia é 2000kcal.
+    
+'''
+
 # Função para validar digitação da escolha do alimento
 def __escolha(escolhido, pergunta):
     while True:
