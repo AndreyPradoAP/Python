@@ -1,0 +1,23 @@
+h1 {
+    font-size: 40pt;
+    color: #015670;
+    font-family: Open Sans, Calibri;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: Open Sans, Calibri;
+    font-size: 15pt;
+}
+
+h4 {
+    font-family: Open Sans, Calibri;
+    font-size: 20pt;
+    color: #386370;
+}
+
+h6 {
+    font-family: Open Sans, Calibri;
+    font-size: 10pt;
+}

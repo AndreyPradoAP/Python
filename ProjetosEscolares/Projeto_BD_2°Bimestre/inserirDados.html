@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="estiloPáginas.css" media="screen">
+		<title>Inserção Dados</title>
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron">
+	  			<h1>Greenpeace</h1>     
+	  			<p>Monitoramento do derretimento calotas polares</p>  
+		</div>
+		<form action="inserirDados.php" method="post">
+			Nome do pesquisador responsável:
+			<br>
+			<input type="text" name="pesquisadorResponsavel">
+			<br/>
+			<br/>
+			Data e hora do cadastro: 
+			<br/>
+			<input type="text" name="dataHora">
+			<br/>
+			<br/>
+			Derretimento semestral em toneladas: 
+			<br/>
+			<input type="decimal" name="derretimentoSemestral">
+			<br/>
+			<br/>
+			Elevação do nível do mar em milímetros: 
+			<br/>
+			<input type="decimal" name="elevacaoMar">
+			<br/>
+			<br/>
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>
